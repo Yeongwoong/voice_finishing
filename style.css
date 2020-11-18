@@ -10,3 +10,8 @@
 	Tags: custom-background, threaded-comments, translation-ready, white, one-column, two-columns, three-columns, four-columns, custom-menu, theme-options, flexible-width, full-width-template, featured-images, right-sidebar
 
 	----------------------------------------------------------------------------------------------------------------*/
+
+
+
+.search-area-wrapper {background: none !important;background-color: darkred !important;}
+.article-image-wrapper img {max-width: 50%;}
