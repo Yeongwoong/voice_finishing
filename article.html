@@ -92,10 +92,18 @@
                   console.log(queryString);
                   const urlParams = new URLSearchParams(queryString);
                   const article_num = urlParams.get('article')
+                  const prevent_num = urlParams.get('prevent')
                   console.log(article_num);
+                  console.log(prevent_num);
+                  if (article_num) {
+                    var article_content = article_contents[parseInt(article_num)];
+                    $('.page-content').html(article_content);
+                  } else {
+                    var prevent_content = prevent_contents[parseInt(prevent_num)];
+                    $('.page-content').html(prevent_content);
+                  }
 
-                  var article_content = article_contents[parseInt(article_num)];
-                  $('.page-content').html(article_content);
+
                 </script>
                 <script type='text/javascript' src='js/custom.js'></script>
 
