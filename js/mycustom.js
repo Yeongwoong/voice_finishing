@@ -59,8 +59,10 @@ jQuery(document).ready(function(e) {
             <h3 class="search-header">보이스피싱 피해사례 검색</h3>
             <!-- <p class="search-tag-line">보이스 피싱 최신 사례를 통해 피해를 예방해보세요~ 미정</p> -->
 
-            <form id="search-form" class="search-form clearfix" method="get" action="#" autocomplete="off">
-                    <input class="search-term required" type="text" id="s" name="s" placeholder="Type your search terms here" title="* Please enter a search term!" />
+            <!-- <form id="search-form" class="search-form clearfix" method="get" action="#" autocomplete="off">
+						<input class="search-term required" type="text" id="s" name="s" placeholder="Type your search terms here" title="* Please enter a search term!" /> -->
+						<form id="search-form" class="search-form clearfix" method="get" action="search.html" autocomplete="off">
+										<input class="search-term required" type="text" id="query" name="query" placeholder="Type your search terms here" title="* Please enter a search term!" />
 										<!-- <input class="search-btn" type="submit" value="Search" /> -->
 										<div class="search-btn-custom">Search</div>
                     <div id="search-error-container"></div>
