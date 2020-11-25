@@ -15,3 +15,11 @@
 
 .search-area-wrapper {background: none !important;background-color: darkred !important;}
 .article-image-wrapper img {max-width: 50%;}
+.search-btn-custom {background-color: #993a34;    font-size: 14px;
+line-height: 19px;
+font-weight: 600;
+padding: 14px 30px 15px;
+color: #fff;
+border: 0;
+width: fit-content;
+display: inline-block;}
