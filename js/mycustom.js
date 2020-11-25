@@ -43,6 +43,7 @@ jQuery(document).ready(function(e) {
                                       </ul>
                                     </li>
                                     <li><a href="contact.html">Contact</a></li>
+																		<li><a href="#">로그인</a>
                             </ul>
                     </div>
             </nav>
@@ -228,11 +229,11 @@ var article_short_list_items = [
   <span class="article-meta">2020.06.11</span>
   <span class="like-count">12</span>
 </li>`,
-`<li class="article-entry standard">
-  <h4><a href="article.html?article=7">레전드 보이스피싱 당했음 다들 조심 ㅠ</a></h4>
-  <span class="article-meta">2020.06.29</span>
-  <span class="like-count">5</span>
-</li>`,
+// `<li class="article-entry standard">
+//   <h4><a href="article.html?article=7">레전드 보이스피싱 당했음 다들 조심 ㅠ</a></h4>
+//   <span class="article-meta">2020.06.29</span>
+//   <span class="like-count">5</span>
+// </li>`,
 `<li class="article-entry standard">
   <h4><a href="article.html?article=8">어머니의 사망보험금을 보이스피싱에 날렸습니다.</a></h4>
   <span class="article-meta">2020.09.15</span>
@@ -430,30 +431,30 @@ var article_list_items = [
 
 </article>`,
 
-`<article class="format-standard type-post hentry clearfix">
-
-  <header class="clearfix">
-
-    <h3 class="post-title">
-      <a href="article.html?article=7">
-        레전드 보이스피싱 당했음 다들 조심 ㅠ
-      </a>
-    </h3>
-
-    <div class="post-meta clearfix">
-      <span class="date">2020.06.29 22:24</span>
-      <span class="category"><a href="#" title="View all posts in Server &amp; Database">네이트판/문화상품권/대구/검찰청</a></span>
-      <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">4 댓글</a></span>
-      <span class="like-count">5</span>
-    </div>
-
-  </header>
-
-  <p>난 그냥 돈없는 대학생이고 여유롭게 뒹굴뒹굴거리는 도중에 모르는 010개인번호로 전화가옴. 난 당연히 아는사람인줄알고 그냥 친구처럼 여보세요. 하면서 받음. 근데 자기가 대구경찰서 뭐 검사라면서 00년00월00일생 000씨 맞냬 목소리는 평범한 2-30대 남자 목소리였음 . . .
-    <a class="readmore-link" href="article.html?article=7">더보기</a>
-  </p>
-
-</article>`,
+// `<article class="format-standard type-post hentry clearfix">
+//
+//   <header class="clearfix">
+//
+//     <h3 class="post-title">
+//       <a href="article.html?article=7">
+//         레전드 보이스피싱 당했음 다들 조심 ㅠ
+//       </a>
+//     </h3>
+//
+//     <div class="post-meta clearfix">
+//       <span class="date">2020.06.29 22:24</span>
+//       <span class="category"><a href="#" title="View all posts in Server &amp; Database">네이트판/문화상품권/대구/검찰청</a></span>
+//       <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">4 댓글</a></span>
+//       <span class="like-count">5</span>
+//     </div>
+//
+//   </header>
+//
+//   <p>난 그냥 돈없는 대학생이고 여유롭게 뒹굴뒹굴거리는 도중에 모르는 010개인번호로 전화가옴. 난 당연히 아는사람인줄알고 그냥 친구처럼 여보세요. 하면서 받음. 근데 자기가 대구경찰서 뭐 검사라면서 00년00월00일생 000씨 맞냬 목소리는 평범한 2-30대 남자 목소리였음 . . .
+//     <a class="readmore-link" href="article.html?article=7">더보기</a>
+//   </p>
+//
+// </article>`,
 
 `<article class="format-standard type-post hentry clearfix">
 
@@ -1739,172 +1740,172 @@ var article_contents = [
 
 </section>`,
 
-`<ul class="breadcrumb">
-    <li><a href="#">보이스피니싱</a><span class="divider">/</span></li>
-    <li><a href="#">게시판명</a> <span class="divider">/</span></li>
-    <li class="active">레전드 보이스피싱 당했음 다들 조심 ㅠ</li>
-</ul>
-
-<article class=" type-post format-standard hentry clearfix">
-
-  <h1 class="post-title"><a href="#">레전드 보이스피싱 당했음 다들 조심 ㅠ</a></h1>
-
-  <div class="post-meta clearfix">
-    <span class="date">25 Feb, 2013</span>
-    <span class="category"><a href="#" title="View all posts in Server &amp; Database">네이트판/문화상품권/대구/검찰청</a></span>
-    <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">4 댓글</a></span>
-    <span class="like-count">5</span>
-  </div>
-
-  <p>내가방금 ㅈㄴ 말도안되게 준비성개쩌는 미친 보이스피싱을 당할뻔함<br /> <br /> 난 그냥 돈없는 대학생이고 여유롭게 뒹굴뒹굴거리는 도중에 모르는 010개인번호로 전화가옴. 난 당연히 아는사람인줄알고 그냥 친구처럼 여보세요. 하면서 받음. 근데 자기가 대구경찰서 뭐 검사라면서 00년00월00일생 000씨 맞냬 목소리는 평범한 2-30대 남자 목소리였음 경찰한테 전화온거 첨이라서 벌벌떨면서 ㅅㅂ 내가뭔잘못했지 ㄷ ㄷ하면서 맞다함 그거알지 잘못한거없어도 샹 뭐지ㅠㅠ 나뭐잘못했지 하면서 막 긴장되는거ㅠ <br /> <br /> 경찰이 광주에사는 28세 김민지씨를 아냬 모른다했지 그사람이 중고나라에서 158명의 명의를 도용해서 대포통장만들어서 중고나라에서 사기를 치고다녔는데 그중에 한명이나라는거야 근데이게 ㅈㄴ 믿을싸했던게 최근에 내주변 2명이 진짜 중고나라 해킹당해서 2-300만원짜리 코지마 안마기 등록되어있고 그래서 와미친 나도 ㅅㅂ 해킹당햇구나하고 ㅈㄴ 믿엇지. 내가만약 그사람한테 불법 자금을 받고 내 명의를 팔았으면 뭐 뭐위반해서 3년이하징역 3천만원 벌금형을 받을 수 있대 그리고 조사결과 피해자신분이되면 그걸 피해당한걸 신고할 수있대. 그리고 막 진짜경찰처럼 하나하나 질문을하고 이제 녹취록 남겨야된다고 아까 대답했던거처럼 사실만 대답하라 함 예를들면 김민지씨를 아십니까? 아니요 모릅니다. 김민지씨에게 돈을주고 명의를 판적 없습니까? 없습니다 ㅇㅈㄹ하면서 ㄹㅇ경찰서에서 수사받눈거처럼 물어봄 나는 선량한 시민^^ 졸라 협조 잘해 ㅇㅈㄹ하면서 열심히 대답함. <br /> <br /> ㅈㄴ 신뢰가 갔던게 요즘 보이스피싱같은게 많아서 수사할때 계좌번호나 비밀번호를 못물어보게되어있다고 그런거 물어보면 보이스피싱이라고 하면서 신뢰를 ㅈㄴ팍팍줘 그래서 아이사람은 진짜 검사구나 ㅇㅈㄹ하면서 안심하고 수사받고있었음 자기가 진짜 검사라는걸 증명하기위해서 네이버에 로앤비를 쳐보래 거기서 김대성을쳐보래 자기가 수사한내역들 다논문으로 있다고 확인시켜줌 그리고 카톡 아이디 알려주면서대구지검민원실 이름으로되어있는걸로 안녕하세요랑 내가확인한거 카톡으로 캡쳐해서 보내야된대 ㅈㄴ 착실하게 다따랐어 그러고 무슨 서류 3개를 보냈는데 하나하나 같이보쟤 <br /> <br /> 거기에 사건 요지같은거 써있고 4항을 소리내서 읽어야된대 ㅈㄴ 열심히 읽음 와 이거 읽는거 들으면서 얼마나 웃겼을까 그 __럼 수치스럽다 쨋든 대충 가족이나 친구한테 이 조사를받고있는걸 통화하는내에 말하면안된다는 조항이었음 피해자인게 밝혀지면 그땐 말해도된대 이것도 지금당시에보면 개병신같은데 그사람이 말하기를 가해자김민지는 체포했는데 그 일당들을 못 잡아서 만약 친구가족들한테 말하면 퍼져서 그사람들귀에 들어갈 수있으니 조사 끝날때까지는 말하면안된대 만약 그걸 어기면 뭐 집행방해죄로 고소먹을 수 있대 그래사 ㅅㅂ 입 근질근질 지금당장 야__얘들아 나 경찰서에서 조사받고있어 ㅈㄴ신기하지 라고 떠벌리고싶었는데 난 선량한 시민이니 말하고싶어도 참겠다고 속으로 다짐하고있었음 <br /> <br /> 그러고 다음 문서로넘어가서 가해자가 쓴 진술서를 사건이해를 위해 또 소리내서 읽어야된대 읽었음ㅋ 대충 은행에서 일하다가 고객 개인정보 유출하고 발각돼서 잘리고 너무힘들어서 사기치고 다녔다는 조카 그럴싸한 내용이었음 이__련이? 하면서 속으로 욕하면서 다읽음 여기서 웃긴건 자칭검사님이 하나하나 이해하기쉽게 ㅈㄴ친절하게 설명해줌 <br /> <br /> 그리고이제 3번째 문서인데 강압수사를 할건지 협조수사를 할건지 내가 골라야됨 강압수사를 선택하면 내가 시간안내도되지만 나뿐만아니라 가족들까지 1년에서 1년6개월까지 은행 거래를 못한대 ㅅㅂ 이게 말이야방구야 그리고 협조수사는 내가 감독하에 용의자 일당으로부터 받은 불법자금이 있는지옶는지 확인하눈데 그걸 어케하냐면 내가직접 합법적인 업체에 내 돈을 맡기고 검사를 받는거래 근데 그 합법적인업체에는 토스 카뱅 쿠팡 인터파크 뭐 다알만한데랑 협약을 맺었다면서 신뢰를줌 이건 수사끝나고 바로 결제취소되고 원상복구된대 ㅈㄴ 생각해보니 말도안되는게 내계좌를 보는개아니라 내돈을 봐서 뭐가 나와 __ ㅠ 근데 여기서 당연히 협조수사를하지 1년6개월이 뭔말이야 근데 이제부터 전화가 1분이상 끊기면 강압수사로 강제로 돌아갈수 밖에없다면서 다른사람이랑 연락 못하게하는 수법을 씀 ㅅㅂ 똑똑한새끼들;<br /> <br /> 이제 내가 사용하는 카드사, 각각에있는 잔액을 다말하래 만약 내가 말한 카드사 말고 다른거 가입된게 발견되면 경찰한테 확인전화가 올 수있다면서 계속 모든계좌를 말하도록 유도함 근데내가 신한카드에 돈 18000원밖에없고 카카오뱅크에 내명의로된 동아리 카드14만원이랑 내카드 600원 정도? 있었음 ㅋㅋㅋㅋ ㅅㅂ 근데 신한카드에 돈 만팔천원밖에 없다니까 그새끼 비웃었던거같음 샹련이? <br /> <br /> 카카오뱅크 카드가 있냐는데 자취방이라서 지금 없다니까 그럼 신한카드로 다옮기래 여기서ㅈㄴ웃긴건 카뱅에있는 6백원도 옮겨요..?ㅋㅋㅋㅋ 이랬는데 그건 필요없대 __럼이. 얘들도 600원따위는 필요없다눈거지,, ㅋ ㅋ 아 네.. 하고 동아리돈 14만원만 옮겨서 16만원이됐음 그걸이제 협약맺은 업체로 돈을 보내야된는데 페이앱같은거있냐는데 카카오페이밖에 안써서 ㅈㄴ 무안할정도로 말하는거마다 다 없다햇음 그러다가 토스가입돼있냬 가입은되어있는데 안쓴다고 깔아야된다했더니 앱스토에 들어가서 토스를 깔으래 깔았음 거기에 신한카드가 연결이돼있냬 모든돈을 토스머니로 옮기래 뭔가 이때부터 ㅅㅂ 조카이상한거야 의심은 조카가는데 앞에서 밑밥깔아둔게 졸라 완벽하다생각해서 긴가민가하면서 속으론 ㅅㅂ 이거 보이스피싱이면 ㄹㅇ_되는데 하면서 내성격이 개 찐따병따년이라 아저씨 보이스피싱이죠! 이 샤발련아! 이런 말도못하고 그냥 진행했음 근데이걸 ㅅㅂ 문화상품권으로 바꾸라는거야 이때 부터 와 이건진짜 아닌거같은데라는 생각이듦 왜냐면 며칠전에 우리아빠도 상품권으로 바꿔서 보내라는 보이스피싱에 당할뻔해서 이건 아니다 생각하면서도 난 짠따병따니까 아무말못하고있었음 상품권 9만원으로 바꾸라는데 이게 만약 안되면 내 계좌 거래역중에 불법거래가 걸리는게있어서 그러는거다라고 밑밥을 깜 근데 다행이도 토스에서 뭔가 위험을 감지했는지 내 계정을 막아버렸음 ㅠㅠㅠㅠ 쉬이발 토스만세ㅠㅠㅠ 지금까지 진행을 잘하고있는지 확인차에 간간히 화면을 캡쳐해서 보냈었는데 안바꿔진다니까 캡쳐해서 보내래 보더니 뭔가 불법거래내역이 감지돼서 그런거라고 토스 소장님이랑 연락을 하고오겠다 끊지말고있어봐라 하는시간에 ㅈㄴ 몰래 가족톡에 대구경찰서에서 전화왓는데 이거 사긴지진짠지 모르겠다ㅠㅠㅠ어떡하냐ㅠㅠㅠ 이지랄하면서 아 이거진짜면 가족한테도 말하지말라했는데 진짜면 어떡하지ㅅㅂ ㅠㅠ 이 쓸데없는 버러지같은 걱정하면서 손발발떨면서있었는데 거기서 먼저 전화를 끊어버렸음 그리고 그후로 전화가없으니까 그때서야 이건진짜다 티비뉴스에서만 듣던 먼나라얘기로만 알았던 보이스피싱이 진짜 나한테서 일어난것이다 그때서야 깨닫고 손가락 발발떨면서 토스에 돈 잘있나 확인하려고 들어갔는데 안들어가져서 아거진짜 _됐다 그자칭 검사년이 해킹해서 돈빼가고 계정 막아둔거다. 하고 멘탈터져서 어버버하면서 토스고객센터에서 바로 상담걸고 보이스피싱당한거같다 어버버버 ㅇㅈㄹ했더니 다행이도 해킹은 아니고 그냥 계정보호상태로 전환돼서 안들어가졌던거였음 무엇보다 중요한 내 16만원 잘있냐고 물어보고 잘있다는말 듣고 ㅈㄴ 안심하고 계정막힌거 풀어주자마자 토스머니 바로 내계좌에입금하고 다시 계정 막아버렸음<br /> <br /> 만약 내가 ㅈㄹ 돈많아서 몇백몇천만원 있어봐 근데 토스도 안막히고 보냈어봐 와 상상만 해도 끔찍해 <br /> 근데 ㅈㄴ 너무하지않냐ㅠ 통장에 돈이만원도없는 학생을 갖다가 ㅠㅠㅠㅠ __럼들 죽었으면좋겠어<br /> <br /> 근데진짜 다른사람들은 바보냐고 그걸 믿냐고하는데 당신들도 나였으면 상품권말하기전까지는 90프로는 믿었을거임 ㅠㅠㅠㅠ ㅈㄴ 지금보면 말도안되지만 일단 경찰서라는말에 심리적 압박감 쩌는 상태니까 당황해서 정신없고 믿을 수 밖에없음 ㅠ 막 얼마보내라 당신사기당했다 계좌번호불러라 이런보이스피싱이면 나도 의심할텐데 ㅈㄴ 철저하게 문서 3개까지 준비하면서 밑밥을 1-2개도아니고 5792개정도를 까니까 신뢰가 조카가고 나진짜 경찰한테 수사받은거처럼 말도안되게 리얼했음 어느정도냐면 정말 김민지씨모르세요?? 이말도 ㅈㄹ여러번하고 정말 김민지씨와 불법거래한적 없단 말씀이시죠? 이런식으로 말 한마디 한마디에 디테일이 끝내주고 158명중 나는 74번째 수사받는 사람이고 앞에서 19명이 불법거래한것을 걸렸다면서 진짜 작정하고 엄청난 시나리오를 짜놨음 ㄹㅇ작가랑 배우 둘다하세요 보이스피싱님 ㅠㅠㅠㅠㅠㅠ 샹련아ㅠㅠㅠㅠ 동아리돈 14만원 내돈으로 채울생각에 아찔했네 씨이발^^<br /> <br /> 그래도 다행히 토스덕분에 내16만원은 사수했지만 다시 생각해도 아찔하고 배신감 쩐다진짜... 한시간동안 통화하면서 정이 생겼다해야되나 그랬는데 이 생ㄴ련이진짜,,ㅎㅎ<br /> 잠만 타임 와 16만원뺏으려고 한시간동안 밑밥을 깐다고? ㅋㅋㅋ진짜 미친새끼다<br /> <br /> 경찰한테는 신고 해둔 상태이고 010으로 전화온거면은 보이스피싱이래.. 당연하지 빡대가리련아... 누가경찰이 개인전화로 수사를해ㅠㅠ 하,,,나란년,,^^<br /> <br /> 다들 나같은 병따찐따처럼 낚이지말고...조심해.........ㅠ<br /> 보통년놈들이아니야 아주...<br /> <br /> (사진아래에도 글있음)</p>
-  <p class="article-image-wrapper"><img src="images/case_images/case_7_1.jpg" alt="img"></p>
-  <p class="article-image-wrapper"><img src="images/case_images/case_7_2.png" alt="img"></p>
-  <p class="article-image-wrapper"><img src="images/case_images/case_7_3.png" alt="img"></p>
-  <p class="article-image-wrapper"><img src="images/case_images/case_7_4.png" alt="img"></p>
-  <p>이건 아까내가말했던 내 목소리로 직접^^읽었던 문서 세개인데 그 상황에선 진짜 믿을만하지않냐고ㅠㅠㅠ 말도안돼진짜...<br /> 어떻게 읽으라고 할 생각을하지??? 진짜 미쳤어 ㄹㅇ 보이스피싱학과 나온거아니냐 이정도면???? 당신은 보이스피싱을하기위해 태어난사람입니다. 축하드립니다. 하지만 뒤지세요 그냥</p>
-  <p class="article-image-wrapper"><img src="images/case_images/case_7_5.png" alt="img"></p>
-  <p>이건 걔 카톡프로필인데 ㅅㅂ 이거에 낚인내가 ㅈㄴ 한심하다,,,^^<br /> 그땐 그냥 정신없어서 우와 진짠가보네 ㅅㅂ ㅠㅠㅠ 이지랄했다고.... 정신차리고 보니까 진짜 장난하냐 ㅋㅋㅋㅋㅋㅋㅋㅋ</p>
-</article>
-
-<div class="like-btn">
-  <form id="like-it-form" action="#" method="post">
-    <span class="like-it ">5</span>
-    <input type="hidden" name="post_id" value="99">
-    <input type="hidden" name="action" value="like_it">
-  </form>
-</div>
-
-<section id="comments">
-
-  <h3 id="comments-title">(4) Comments</h3>
-
-  <ol class="commentlist">
-
-          <li class="comment even thread-even depth-1" id="li-comment-2">
-            <article id="comment-2">
-
-              <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
-              </a>
-
-              <div class="comment-meta">
-                  <h5 class="author">
-                    <cite class="fn">
-                      <a href="#" rel="external nofollow" class="url">이름</a>
-                    </cite>
-                  </h5>
-                  <p class="date">
-                    <a href="#">
-                        <time datetime="2013-02-26T13:18:47+00:00">시간</time>
-                    </a>
-                  </p>
-              </div>
-
-              <div class="comment-body">
-                <p>전화를 받은 이가 진짜 누군지 알고 그런 걸 진행하는지... 신분 확인이 필요한 것은 절대로 전화로 얘기 안 하고 본인 확인하기 위해서도 경찰서나 검찰에 출석하라고 합니다. 은행이나 공공기관은 모두 그럽니다. 저도 저런 전화를 받고 직접 출석해서 응하겠다 하니까 알았다 하고 끊던데요. 서울 남부지검이라고 하더니...ㅋㅋㅋ 그 뒤로 전화 안 옴.</p>
-              </div>
-
-            </article>
-          </li>
-
-          <li class="comment even thread-even depth-1" id="li-comment-2">
-            <article id="comment-2">
-
-              <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
-              </a>
-
-              <div class="comment-meta">
-                  <h5 class="author">
-                    <cite class="fn">
-                      <a href="#" rel="external nofollow" class="url">이름</a>
-                    </cite>
-                  </h5>
-                  <p class="date">
-                    <a href="#">
-                        <time datetime="2013-02-26T13:18:47+00:00">시간</time>
-                    </a>
-                  </p>
-              </div>
-
-              <div class="comment-body">
-                <p>저 이거에 댓글 달려고 방금 가입했어요.. 2시간 전에 같은 수법으로 휴대폰 소액결제 58만원 사기 당해서 경찰 처음 만나봤고요...손 아직도 벌벌 떨려요... 전화 끊지 말래서 못끊고 검색만 하다가 이거 보고 끊었어요ㅠㅠㅠ 진짜... ㅠㅠㅠㅜㅜㅠㅜ</p>
-              </div>
-
-            </article>
-          </li>
-
-          <li class="comment even thread-even depth-1" id="li-comment-2">
-            <article id="comment-2">
-
-              <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
-              </a>
-
-              <div class="comment-meta">
-                  <h5 class="author">
-                    <cite class="fn">
-                      <a href="#" rel="external nofollow" class="url">이름</a>
-                    </cite>
-                  </h5>
-                  <p class="date">
-                    <a href="#">
-                        <time datetime="2013-02-26T13:18:47+00:00">시간</time>
-                    </a>
-                  </p>
-              </div>
-
-              <div class="comment-body">
-                <p>방금 제 동생도 글쓴이님이랑 똑같은 수법으로 전화왔었요..! 돈을 못 뽑아서 내일 다시 전화준다고 하고 끊고 난 후에도 진짜인 줄 알았는데 우연히 이 글 보고 너어어어엉무누우우ㅜ우 똑같아서 보이스피싱인걸 확신했습니다 이 글 남겨주셔서 감사해요 글쓴이님 아니였으면 속았을 뻔 했어요 사진내용도 카톡프사도 너무 똑같아요</p>
-              </div>
-
-            </article>
-          </li>
-
-          <li class="comment even thread-even depth-1" id="li-comment-2">
-            <article id="comment-2">
-
-              <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
-              </a>
-
-              <div class="comment-meta">
-                  <h5 class="author">
-                    <cite class="fn">
-                      <a href="#" rel="external nofollow" class="url">이름</a>
-                    </cite>
-                  </h5>
-                  <p class="date">
-                    <a href="#">
-                        <time datetime="2013-02-26T13:18:47+00:00">시간</time>
-                    </a>
-                  </p>
-              </div>
-
-              <div class="comment-body">
-                <p>필력 ㄹㅈㄷ ㅋㅋㅋㅋㅋㅋㅋㅋㅋ</p>
-              </div>
-
-            </article>
-          </li>
-  </ol>
-
-  <div id="respond">
-          <h3>답변을 남기세요</h3>
-
-          <form action="#" method="post" id="commentform">
-                  <!-- <p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required">*</span></p> -->
-                  <div>
-                    <label for="comment">Comment</label>
-                    <textarea class="span8" name="comment" id="comment" cols="58" rows="10"></textarea>
-                  </div>
-                  <div>
-                    <input class="btn" name="submit" type="submit" id="submit"  value="Submit Comment">
-                  </div>
-          </form>
-  </div>
-
-</section>`,
+// `<ul class="breadcrumb">
+//     <li><a href="#">보이스피니싱</a><span class="divider">/</span></li>
+//     <li><a href="#">게시판명</a> <span class="divider">/</span></li>
+//     <li class="active">레전드 보이스피싱 당했음 다들 조심 ㅠ</li>
+// </ul>
+//
+// <article class=" type-post format-standard hentry clearfix">
+//
+//   <h1 class="post-title"><a href="#">레전드 보이스피싱 당했음 다들 조심 ㅠ</a></h1>
+//
+//   <div class="post-meta clearfix">
+//     <span class="date">25 Feb, 2013</span>
+//     <span class="category"><a href="#" title="View all posts in Server &amp; Database">네이트판/문화상품권/대구/검찰청</a></span>
+//     <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">4 댓글</a></span>
+//     <span class="like-count">5</span>
+//   </div>
+//
+//   <p>내가방금 ㅈㄴ 말도안되게 준비성개쩌는 미친 보이스피싱을 당할뻔함<br /> <br /> 난 그냥 돈없는 대학생이고 여유롭게 뒹굴뒹굴거리는 도중에 모르는 010개인번호로 전화가옴. 난 당연히 아는사람인줄알고 그냥 친구처럼 여보세요. 하면서 받음. 근데 자기가 대구경찰서 뭐 검사라면서 00년00월00일생 000씨 맞냬 목소리는 평범한 2-30대 남자 목소리였음 경찰한테 전화온거 첨이라서 벌벌떨면서 ㅅㅂ 내가뭔잘못했지 ㄷ ㄷ하면서 맞다함 그거알지 잘못한거없어도 샹 뭐지ㅠㅠ 나뭐잘못했지 하면서 막 긴장되는거ㅠ <br /> <br /> 경찰이 광주에사는 28세 김민지씨를 아냬 모른다했지 그사람이 중고나라에서 158명의 명의를 도용해서 대포통장만들어서 중고나라에서 사기를 치고다녔는데 그중에 한명이나라는거야 근데이게 ㅈㄴ 믿을싸했던게 최근에 내주변 2명이 진짜 중고나라 해킹당해서 2-300만원짜리 코지마 안마기 등록되어있고 그래서 와미친 나도 ㅅㅂ 해킹당햇구나하고 ㅈㄴ 믿엇지. 내가만약 그사람한테 불법 자금을 받고 내 명의를 팔았으면 뭐 뭐위반해서 3년이하징역 3천만원 벌금형을 받을 수 있대 그리고 조사결과 피해자신분이되면 그걸 피해당한걸 신고할 수있대. 그리고 막 진짜경찰처럼 하나하나 질문을하고 이제 녹취록 남겨야된다고 아까 대답했던거처럼 사실만 대답하라 함 예를들면 김민지씨를 아십니까? 아니요 모릅니다. 김민지씨에게 돈을주고 명의를 판적 없습니까? 없습니다 ㅇㅈㄹ하면서 ㄹㅇ경찰서에서 수사받눈거처럼 물어봄 나는 선량한 시민^^ 졸라 협조 잘해 ㅇㅈㄹ하면서 열심히 대답함. <br /> <br /> ㅈㄴ 신뢰가 갔던게 요즘 보이스피싱같은게 많아서 수사할때 계좌번호나 비밀번호를 못물어보게되어있다고 그런거 물어보면 보이스피싱이라고 하면서 신뢰를 ㅈㄴ팍팍줘 그래서 아이사람은 진짜 검사구나 ㅇㅈㄹ하면서 안심하고 수사받고있었음 자기가 진짜 검사라는걸 증명하기위해서 네이버에 로앤비를 쳐보래 거기서 김대성을쳐보래 자기가 수사한내역들 다논문으로 있다고 확인시켜줌 그리고 카톡 아이디 알려주면서대구지검민원실 이름으로되어있는걸로 안녕하세요랑 내가확인한거 카톡으로 캡쳐해서 보내야된대 ㅈㄴ 착실하게 다따랐어 그러고 무슨 서류 3개를 보냈는데 하나하나 같이보쟤 <br /> <br /> 거기에 사건 요지같은거 써있고 4항을 소리내서 읽어야된대 ㅈㄴ 열심히 읽음 와 이거 읽는거 들으면서 얼마나 웃겼을까 그 __럼 수치스럽다 쨋든 대충 가족이나 친구한테 이 조사를받고있는걸 통화하는내에 말하면안된다는 조항이었음 피해자인게 밝혀지면 그땐 말해도된대 이것도 지금당시에보면 개병신같은데 그사람이 말하기를 가해자김민지는 체포했는데 그 일당들을 못 잡아서 만약 친구가족들한테 말하면 퍼져서 그사람들귀에 들어갈 수있으니 조사 끝날때까지는 말하면안된대 만약 그걸 어기면 뭐 집행방해죄로 고소먹을 수 있대 그래사 ㅅㅂ 입 근질근질 지금당장 야__얘들아 나 경찰서에서 조사받고있어 ㅈㄴ신기하지 라고 떠벌리고싶었는데 난 선량한 시민이니 말하고싶어도 참겠다고 속으로 다짐하고있었음 <br /> <br /> 그러고 다음 문서로넘어가서 가해자가 쓴 진술서를 사건이해를 위해 또 소리내서 읽어야된대 읽었음ㅋ 대충 은행에서 일하다가 고객 개인정보 유출하고 발각돼서 잘리고 너무힘들어서 사기치고 다녔다는 조카 그럴싸한 내용이었음 이__련이? 하면서 속으로 욕하면서 다읽음 여기서 웃긴건 자칭검사님이 하나하나 이해하기쉽게 ㅈㄴ친절하게 설명해줌 <br /> <br /> 그리고이제 3번째 문서인데 강압수사를 할건지 협조수사를 할건지 내가 골라야됨 강압수사를 선택하면 내가 시간안내도되지만 나뿐만아니라 가족들까지 1년에서 1년6개월까지 은행 거래를 못한대 ㅅㅂ 이게 말이야방구야 그리고 협조수사는 내가 감독하에 용의자 일당으로부터 받은 불법자금이 있는지옶는지 확인하눈데 그걸 어케하냐면 내가직접 합법적인 업체에 내 돈을 맡기고 검사를 받는거래 근데 그 합법적인업체에는 토스 카뱅 쿠팡 인터파크 뭐 다알만한데랑 협약을 맺었다면서 신뢰를줌 이건 수사끝나고 바로 결제취소되고 원상복구된대 ㅈㄴ 생각해보니 말도안되는게 내계좌를 보는개아니라 내돈을 봐서 뭐가 나와 __ ㅠ 근데 여기서 당연히 협조수사를하지 1년6개월이 뭔말이야 근데 이제부터 전화가 1분이상 끊기면 강압수사로 강제로 돌아갈수 밖에없다면서 다른사람이랑 연락 못하게하는 수법을 씀 ㅅㅂ 똑똑한새끼들;<br /> <br /> 이제 내가 사용하는 카드사, 각각에있는 잔액을 다말하래 만약 내가 말한 카드사 말고 다른거 가입된게 발견되면 경찰한테 확인전화가 올 수있다면서 계속 모든계좌를 말하도록 유도함 근데내가 신한카드에 돈 18000원밖에없고 카카오뱅크에 내명의로된 동아리 카드14만원이랑 내카드 600원 정도? 있었음 ㅋㅋㅋㅋ ㅅㅂ 근데 신한카드에 돈 만팔천원밖에 없다니까 그새끼 비웃었던거같음 샹련이? <br /> <br /> 카카오뱅크 카드가 있냐는데 자취방이라서 지금 없다니까 그럼 신한카드로 다옮기래 여기서ㅈㄴ웃긴건 카뱅에있는 6백원도 옮겨요..?ㅋㅋㅋㅋ 이랬는데 그건 필요없대 __럼이. 얘들도 600원따위는 필요없다눈거지,, ㅋ ㅋ 아 네.. 하고 동아리돈 14만원만 옮겨서 16만원이됐음 그걸이제 협약맺은 업체로 돈을 보내야된는데 페이앱같은거있냐는데 카카오페이밖에 안써서 ㅈㄴ 무안할정도로 말하는거마다 다 없다햇음 그러다가 토스가입돼있냬 가입은되어있는데 안쓴다고 깔아야된다했더니 앱스토에 들어가서 토스를 깔으래 깔았음 거기에 신한카드가 연결이돼있냬 모든돈을 토스머니로 옮기래 뭔가 이때부터 ㅅㅂ 조카이상한거야 의심은 조카가는데 앞에서 밑밥깔아둔게 졸라 완벽하다생각해서 긴가민가하면서 속으론 ㅅㅂ 이거 보이스피싱이면 ㄹㅇ_되는데 하면서 내성격이 개 찐따병따년이라 아저씨 보이스피싱이죠! 이 샤발련아! 이런 말도못하고 그냥 진행했음 근데이걸 ㅅㅂ 문화상품권으로 바꾸라는거야 이때 부터 와 이건진짜 아닌거같은데라는 생각이듦 왜냐면 며칠전에 우리아빠도 상품권으로 바꿔서 보내라는 보이스피싱에 당할뻔해서 이건 아니다 생각하면서도 난 짠따병따니까 아무말못하고있었음 상품권 9만원으로 바꾸라는데 이게 만약 안되면 내 계좌 거래역중에 불법거래가 걸리는게있어서 그러는거다라고 밑밥을 깜 근데 다행이도 토스에서 뭔가 위험을 감지했는지 내 계정을 막아버렸음 ㅠㅠㅠㅠ 쉬이발 토스만세ㅠㅠㅠ 지금까지 진행을 잘하고있는지 확인차에 간간히 화면을 캡쳐해서 보냈었는데 안바꿔진다니까 캡쳐해서 보내래 보더니 뭔가 불법거래내역이 감지돼서 그런거라고 토스 소장님이랑 연락을 하고오겠다 끊지말고있어봐라 하는시간에 ㅈㄴ 몰래 가족톡에 대구경찰서에서 전화왓는데 이거 사긴지진짠지 모르겠다ㅠㅠㅠ어떡하냐ㅠㅠㅠ 이지랄하면서 아 이거진짜면 가족한테도 말하지말라했는데 진짜면 어떡하지ㅅㅂ ㅠㅠ 이 쓸데없는 버러지같은 걱정하면서 손발발떨면서있었는데 거기서 먼저 전화를 끊어버렸음 그리고 그후로 전화가없으니까 그때서야 이건진짜다 티비뉴스에서만 듣던 먼나라얘기로만 알았던 보이스피싱이 진짜 나한테서 일어난것이다 그때서야 깨닫고 손가락 발발떨면서 토스에 돈 잘있나 확인하려고 들어갔는데 안들어가져서 아거진짜 _됐다 그자칭 검사년이 해킹해서 돈빼가고 계정 막아둔거다. 하고 멘탈터져서 어버버하면서 토스고객센터에서 바로 상담걸고 보이스피싱당한거같다 어버버버 ㅇㅈㄹ했더니 다행이도 해킹은 아니고 그냥 계정보호상태로 전환돼서 안들어가졌던거였음 무엇보다 중요한 내 16만원 잘있냐고 물어보고 잘있다는말 듣고 ㅈㄴ 안심하고 계정막힌거 풀어주자마자 토스머니 바로 내계좌에입금하고 다시 계정 막아버렸음<br /> <br /> 만약 내가 ㅈㄹ 돈많아서 몇백몇천만원 있어봐 근데 토스도 안막히고 보냈어봐 와 상상만 해도 끔찍해 <br /> 근데 ㅈㄴ 너무하지않냐ㅠ 통장에 돈이만원도없는 학생을 갖다가 ㅠㅠㅠㅠ __럼들 죽었으면좋겠어<br /> <br /> 근데진짜 다른사람들은 바보냐고 그걸 믿냐고하는데 당신들도 나였으면 상품권말하기전까지는 90프로는 믿었을거임 ㅠㅠㅠㅠ ㅈㄴ 지금보면 말도안되지만 일단 경찰서라는말에 심리적 압박감 쩌는 상태니까 당황해서 정신없고 믿을 수 밖에없음 ㅠ 막 얼마보내라 당신사기당했다 계좌번호불러라 이런보이스피싱이면 나도 의심할텐데 ㅈㄴ 철저하게 문서 3개까지 준비하면서 밑밥을 1-2개도아니고 5792개정도를 까니까 신뢰가 조카가고 나진짜 경찰한테 수사받은거처럼 말도안되게 리얼했음 어느정도냐면 정말 김민지씨모르세요?? 이말도 ㅈㄹ여러번하고 정말 김민지씨와 불법거래한적 없단 말씀이시죠? 이런식으로 말 한마디 한마디에 디테일이 끝내주고 158명중 나는 74번째 수사받는 사람이고 앞에서 19명이 불법거래한것을 걸렸다면서 진짜 작정하고 엄청난 시나리오를 짜놨음 ㄹㅇ작가랑 배우 둘다하세요 보이스피싱님 ㅠㅠㅠㅠㅠㅠ 샹련아ㅠㅠㅠㅠ 동아리돈 14만원 내돈으로 채울생각에 아찔했네 씨이발^^<br /> <br /> 그래도 다행히 토스덕분에 내16만원은 사수했지만 다시 생각해도 아찔하고 배신감 쩐다진짜... 한시간동안 통화하면서 정이 생겼다해야되나 그랬는데 이 생ㄴ련이진짜,,ㅎㅎ<br /> 잠만 타임 와 16만원뺏으려고 한시간동안 밑밥을 깐다고? ㅋㅋㅋ진짜 미친새끼다<br /> <br /> 경찰한테는 신고 해둔 상태이고 010으로 전화온거면은 보이스피싱이래.. 당연하지 빡대가리련아... 누가경찰이 개인전화로 수사를해ㅠㅠ 하,,,나란년,,^^<br /> <br /> 다들 나같은 병따찐따처럼 낚이지말고...조심해.........ㅠ<br /> 보통년놈들이아니야 아주...<br /> <br /> (사진아래에도 글있음)</p>
+//   <p class="article-image-wrapper"><img src="images/case_images/case_7_1.jpg" alt="img"></p>
+//   <p class="article-image-wrapper"><img src="images/case_images/case_7_2.png" alt="img"></p>
+//   <p class="article-image-wrapper"><img src="images/case_images/case_7_3.png" alt="img"></p>
+//   <p class="article-image-wrapper"><img src="images/case_images/case_7_4.png" alt="img"></p>
+//   <p>이건 아까내가말했던 내 목소리로 직접^^읽었던 문서 세개인데 그 상황에선 진짜 믿을만하지않냐고ㅠㅠㅠ 말도안돼진짜...<br /> 어떻게 읽으라고 할 생각을하지??? 진짜 미쳤어 ㄹㅇ 보이스피싱학과 나온거아니냐 이정도면???? 당신은 보이스피싱을하기위해 태어난사람입니다. 축하드립니다. 하지만 뒤지세요 그냥</p>
+//   <p class="article-image-wrapper"><img src="images/case_images/case_7_5.png" alt="img"></p>
+//   <p>이건 걔 카톡프로필인데 ㅅㅂ 이거에 낚인내가 ㅈㄴ 한심하다,,,^^<br /> 그땐 그냥 정신없어서 우와 진짠가보네 ㅅㅂ ㅠㅠㅠ 이지랄했다고.... 정신차리고 보니까 진짜 장난하냐 ㅋㅋㅋㅋㅋㅋㅋㅋ</p>
+// </article>
+//
+// <div class="like-btn">
+//   <form id="like-it-form" action="#" method="post">
+//     <span class="like-it ">5</span>
+//     <input type="hidden" name="post_id" value="99">
+//     <input type="hidden" name="action" value="like_it">
+//   </form>
+// </div>
+//
+// <section id="comments">
+//
+//   <h3 id="comments-title">(4) Comments</h3>
+//
+//   <ol class="commentlist">
+//
+//           <li class="comment even thread-even depth-1" id="li-comment-2">
+//             <article id="comment-2">
+//
+//               <a href="#">
+//                 <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+//               </a>
+//
+//               <div class="comment-meta">
+//                   <h5 class="author">
+//                     <cite class="fn">
+//                       <a href="#" rel="external nofollow" class="url">이름</a>
+//                     </cite>
+//                   </h5>
+//                   <p class="date">
+//                     <a href="#">
+//                         <time datetime="2013-02-26T13:18:47+00:00">시간</time>
+//                     </a>
+//                   </p>
+//               </div>
+//
+//               <div class="comment-body">
+//                 <p>전화를 받은 이가 진짜 누군지 알고 그런 걸 진행하는지... 신분 확인이 필요한 것은 절대로 전화로 얘기 안 하고 본인 확인하기 위해서도 경찰서나 검찰에 출석하라고 합니다. 은행이나 공공기관은 모두 그럽니다. 저도 저런 전화를 받고 직접 출석해서 응하겠다 하니까 알았다 하고 끊던데요. 서울 남부지검이라고 하더니...ㅋㅋㅋ 그 뒤로 전화 안 옴.</p>
+//               </div>
+//
+//             </article>
+//           </li>
+//
+//           <li class="comment even thread-even depth-1" id="li-comment-2">
+//             <article id="comment-2">
+//
+//               <a href="#">
+//                 <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+//               </a>
+//
+//               <div class="comment-meta">
+//                   <h5 class="author">
+//                     <cite class="fn">
+//                       <a href="#" rel="external nofollow" class="url">이름</a>
+//                     </cite>
+//                   </h5>
+//                   <p class="date">
+//                     <a href="#">
+//                         <time datetime="2013-02-26T13:18:47+00:00">시간</time>
+//                     </a>
+//                   </p>
+//               </div>
+//
+//               <div class="comment-body">
+//                 <p>저 이거에 댓글 달려고 방금 가입했어요.. 2시간 전에 같은 수법으로 휴대폰 소액결제 58만원 사기 당해서 경찰 처음 만나봤고요...손 아직도 벌벌 떨려요... 전화 끊지 말래서 못끊고 검색만 하다가 이거 보고 끊었어요ㅠㅠㅠ 진짜... ㅠㅠㅠㅜㅜㅠㅜ</p>
+//               </div>
+//
+//             </article>
+//           </li>
+//
+//           <li class="comment even thread-even depth-1" id="li-comment-2">
+//             <article id="comment-2">
+//
+//               <a href="#">
+//                 <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+//               </a>
+//
+//               <div class="comment-meta">
+//                   <h5 class="author">
+//                     <cite class="fn">
+//                       <a href="#" rel="external nofollow" class="url">이름</a>
+//                     </cite>
+//                   </h5>
+//                   <p class="date">
+//                     <a href="#">
+//                         <time datetime="2013-02-26T13:18:47+00:00">시간</time>
+//                     </a>
+//                   </p>
+//               </div>
+//
+//               <div class="comment-body">
+//                 <p>방금 제 동생도 글쓴이님이랑 똑같은 수법으로 전화왔었요..! 돈을 못 뽑아서 내일 다시 전화준다고 하고 끊고 난 후에도 진짜인 줄 알았는데 우연히 이 글 보고 너어어어엉무누우우ㅜ우 똑같아서 보이스피싱인걸 확신했습니다 이 글 남겨주셔서 감사해요 글쓴이님 아니였으면 속았을 뻔 했어요 사진내용도 카톡프사도 너무 똑같아요</p>
+//               </div>
+//
+//             </article>
+//           </li>
+//
+//           <li class="comment even thread-even depth-1" id="li-comment-2">
+//             <article id="comment-2">
+//
+//               <a href="#">
+//                 <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+//               </a>
+//
+//               <div class="comment-meta">
+//                   <h5 class="author">
+//                     <cite class="fn">
+//                       <a href="#" rel="external nofollow" class="url">이름</a>
+//                     </cite>
+//                   </h5>
+//                   <p class="date">
+//                     <a href="#">
+//                         <time datetime="2013-02-26T13:18:47+00:00">시간</time>
+//                     </a>
+//                   </p>
+//               </div>
+//
+//               <div class="comment-body">
+//                 <p>필력 ㄹㅈㄷ ㅋㅋㅋㅋㅋㅋㅋㅋㅋ</p>
+//               </div>
+//
+//             </article>
+//           </li>
+//   </ol>
+//
+//   <div id="respond">
+//           <h3>답변을 남기세요</h3>
+//
+//           <form action="#" method="post" id="commentform">
+//                   <!-- <p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required">*</span></p> -->
+//                   <div>
+//                     <label for="comment">Comment</label>
+//                     <textarea class="span8" name="comment" id="comment" cols="58" rows="10"></textarea>
+//                   </div>
+//                   <div>
+//                     <input class="btn" name="submit" type="submit" id="submit"  value="Submit Comment">
+//                   </div>
+//           </form>
+//   </div>
+//
+// </section>`,
 
 `<ul class="breadcrumb">
     <li><a href="#">보이스피니싱</a><span class="divider">/</span></li>
