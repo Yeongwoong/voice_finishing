@@ -43,7 +43,7 @@ jQuery(document).ready(function(e) {
                                       </ul>
                                     </li>
                                     <li><a href="contact.html">Contact</a></li>
-																		<li><a href="#">로그인</a>
+																		<li><a href="login.html">로그인</a>
                             </ul>
                     </div>
             </nav>
@@ -276,7 +276,7 @@ var article_list_items = [
     <div class="post-meta clearfix">
       <span class="date">25 Feb, 2013</span>
       <span class="category"><a href="#" title="View all posts in Server &amp; Database">태그</a></span>
-      <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">3 댓글</a></span>
+      <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">2 댓글</a></span>
       <span class="like-count">66</span>
     </div>
 
@@ -301,7 +301,7 @@ var article_list_items = [
     <div class="post-meta clearfix">
       <span class="date">25 Feb, 2013</span>
       <span class="category"><a href="#" title="View all posts in Server &amp; Database">태그</a></span>
-      <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">3 댓글</a></span>
+      <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">1 댓글</a></span>
       <span class="like-count">66</span>
     </div>
 
@@ -592,7 +592,7 @@ var article_contents = [
 
 <section id="comments">
 
-  <h3 id="comments-title">(3) Comments</h3>
+  <h3 id="comments-title">(2) Comments</h3>
 
   <ol class="commentlist">
 
@@ -606,18 +606,45 @@ var article_contents = [
               <div class="comment-meta">
                   <h5 class="author">
                     <cite class="fn">
-                      <a href="#" rel="external nofollow" class="url">이름</a>
+                      <a href="#" rel="external nofollow" class="url">이덕춘</a>
                     </cite>
                   </h5>
                   <p class="date">
                     <a href="#">
-                        <time datetime="2013-02-26T13:18:47+00:00">시간</time>
+                        <time datetime="2013-02-26T13:18:47+00:00">2020.11.21</time>
                     </a>
                   </p>
               </div>
 
               <div class="comment-body">
-                <p>내용</p>
+                <p>와 저도 서울지방경찰청 사칭 전화 받았었는데... 진짜 화가나네요</p>
+              </div>
+
+            </article>
+          </li>
+
+					<li class="comment even thread-even depth-1" id="li-comment-2">
+            <article id="comment-2">
+
+              <a href="#">
+									<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+              </a>
+
+              <div class="comment-meta">
+                  <h5 class="author">
+                    <cite class="fn">
+                      <a href="#" rel="external nofollow" class="url">김기훈</a>
+                    </cite>
+                  </h5>
+                  <p class="date">
+                    <a href="#">
+                        <time datetime="2013-02-26T13:18:47+00:00">2020.11.22</time>
+                    </a>
+                  </p>
+              </div>
+
+              <div class="comment-body">
+                <p>그놈의 서울지방경찰청.. 저는 스미싱 당할 뻔 했습니다;</p>
               </div>
 
             </article>
@@ -654,7 +681,7 @@ var article_contents = [
   <div class="post-meta clearfix">
     <span class="date">25 Feb, 2013</span>
     <span class="category"><a href="#" title="View all posts in Server &amp; Database">태그</a></span>
-    <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">3 댓글</a></span>
+    <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">1 댓글</a></span>
     <span class="like-count">66</span>
   </div>
 
@@ -683,24 +710,24 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+									<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
                   <h5 class="author">
                     <cite class="fn">
-                      <a href="#" rel="external nofollow" class="url">이름</a>
+                      <a href="#" rel="external nofollow" class="url">박건보</a>
                     </cite>
                   </h5>
                   <p class="date">
                     <a href="#">
-                        <time datetime="2013-02-26T13:18:47+00:00">시간</time>
+                        <time datetime="2013-02-26T13:18:47+00:00">2020.11.25</time>
                     </a>
                   </p>
               </div>
 
               <div class="comment-body">
-                <p>내용</p>
+                <p>문자내용이 진짜 스미싱인지 은행인 구분이 안가네요...</p>
               </div>
 
             </article>
@@ -769,24 +796,78 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+								<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
                   <h5 class="author">
                     <cite class="fn">
-                      <a href="#" rel="external nofollow" class="url">이름</a>
+                      <a href="#" rel="external nofollow" class="url">김사랑</a>
                     </cite>
                   </h5>
                   <p class="date">
                     <a href="#">
-                        <time datetime="2013-02-26T13:18:47+00:00">시간</time>
+                        <time datetime="2013-02-26T13:18:47+00:00">2020.11.12</time>
                     </a>
                   </p>
               </div>
 
               <div class="comment-body">
-                <p>내용</p>
+                <p>검사 사칭 피싱이 많다고 말로만 들었는데 진짜 있었네요...</p>
+              </div>
+
+            </article>
+          </li>
+
+					<li class="comment even thread-even depth-1" id="li-comment-2">
+            <article id="comment-2">
+
+              <a href="#">
+								<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+              </a>
+
+              <div class="comment-meta">
+                  <h5 class="author">
+                    <cite class="fn">
+                      <a href="#" rel="external nofollow" class="url">박재무</a>
+                    </cite>
+                  </h5>
+                  <p class="date">
+                    <a href="#">
+                        <time datetime="2013-02-26T13:18:47+00:00">2020.11.14</time>
+                    </a>
+                  </p>
+              </div>
+
+              <div class="comment-body">
+                <p>진짜 검색 못해보면 꼼짝없이 당할 것 같아요</p>
+              </div>
+
+            </article>
+          </li>
+
+					<li class="comment even thread-even depth-1" id="li-comment-2">
+            <article id="comment-2">
+
+              <a href="#">
+								<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+              </a>
+
+              <div class="comment-meta">
+                  <h5 class="author">
+                    <cite class="fn">
+                      <a href="#" rel="external nofollow" class="url">이융곤</a>
+                    </cite>
+                  </h5>
+                  <p class="date">
+                    <a href="#">
+                        <time datetime="2013-02-26T13:18:47+00:00">2020.11.14</time>
+                    </a>
+                  </p>
+              </div>
+
+              <div class="comment-body">
+                <p>문서 위조... 갈수록 정교해지내요ㅜㅠ</p>
               </div>
 
             </article>
@@ -819,11 +900,11 @@ var article_contents = [
 
 <article class=" type-post format-standard hentry clearfix">
 
-  <h1 class="post-title"><a href="#">제목</a></h1>
+  <h1 class="post-title"><a href="#">보이스피싱 사기꾼과의 통화내용 (녹음있음)</a></h1>
 
   <div class="post-meta clearfix">
     <span class="date">15 Jan, 2020</span>
-    <span class="category"><a href="#" title="View all posts in Server &amp; Database"><p><span style='font-size:13px;line-height:107%;font-family:"맑은 고딕";'>네이트판</span></p></a></span>
+    <span class="category"><a href="#" title="View all posts in Server &amp; Database"><span style='font-size:13px;font-family:"맑은 고딕";'>네이트판</span></a></span>
     <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">9 댓글</a></span>
     <span class="like-count">382</span>
   </div>
@@ -893,7 +974,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -915,19 +996,12 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
-
-  <section id="comments">
-
-  <h3 id="comments-title">(9) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -949,19 +1023,12 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
-
-  <section id="comments">
-
-  <h3 id="comments-title">(9) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -983,19 +1050,12 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
-
-  <section id="comments">
-
-  <h3 id="comments-title">(9) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1017,19 +1077,12 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
-
-  <section id="comments">
-
-  <h3 id="comments-title">(9) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1051,19 +1104,12 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
-
-  <section id="comments">
-
-  <h3 id="comments-title">(9) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1085,19 +1131,12 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
-
-  <section id="comments">
-
-  <h3 id="comments-title">(9) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1119,19 +1158,12 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
-
-  <section id="comments">
-
-  <h3 id="comments-title">(9) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1153,19 +1185,12 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
-
-  <section id="comments">
-
-  <h3 id="comments-title">(9) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1214,7 +1239,7 @@ var article_contents = [
 
 <article class=" type-post format-standard hentry clearfix">
 
-  <h1 class="post-title"><a href="#"><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;text-align:justify;line-height:107%;font-size:13px;font-family:"맑은 고딕";'><strong>보이스피싱 사기범 핸폰 땄습니다. 001-86-13858-9673-14</strong></p></a></h1>
+  <h1 class="post-title"><a href="#">보이스피싱 사기범 핸폰 땄습니다. 001-86-13858-9673-14</a></h1>
 
   <div class="post-meta clearfix">
     <span class="date">24 Mar, 2020</span>
@@ -1267,7 +1292,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1293,7 +1318,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1319,7 +1344,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1345,7 +1370,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1371,7 +1396,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1451,7 +1476,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1473,19 +1498,12 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
-
-<section id="comments">
-
-  <h3 id="comments-title">(4) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1507,19 +1525,13 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
 
-<section id="comments">
-
-  <h3 id="comments-title">(4) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1541,19 +1553,12 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
-
-<section id="comments">
-
-  <h3 id="comments-title">(4) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1687,29 +1692,12 @@ var article_contents = [
 
             </article>
           </li>
-  </ol>
-
-  </article>
-
-<div class="like-btn">
-  <form id="like-it-form" action="#" method="post">
-    <span class="like-it ">4</span>
-    <input type="hidden" name="post_id" value="99">
-    <input type="hidden" name="action" value="like_it">
-  </form>
-</div>
-
-<section id="comments">
-
-  <h3 id="comments-title">(2) Comments</h3>
-
-  <ol class="commentlist">
 
           <li class="comment even thread-even depth-1" id="li-comment-2">
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1795,7 +1783,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1822,7 +1810,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1849,7 +1837,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1876,7 +1864,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -1998,7 +1986,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -2025,7 +2013,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -2191,7 +2179,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
@@ -2218,7 +2206,7 @@ var article_contents = [
             <article id="comment-2">
 
               <a href="#">
-                <img alt="" src="http://1.gravatar.com/avatar/50a7625001317a58444a20ece817aeca?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
+							<img alt="" src="http://0.gravatar.com/avatar/2df5eab0988aa5ff219476b1d27df755?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" class="avatar avatar-60 photo" height="60" width="60">
               </a>
 
               <div class="comment-meta">
