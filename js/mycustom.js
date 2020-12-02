@@ -1749,7 +1749,7 @@ var article_contents = [
   <h1 class="post-title"><a href="#">레전드 보이스피싱 당했음 다들 조심 ㅠ</a></h1>
 
   <div class="post-meta clearfix">
-    <span class="date">25 Feb, 2013</span>
+    <span class="date">29 Jun, 2020</span>
     <span class="category"><a href="#" title="View all posts in Server &amp; Database">네이트판/문화상품권/대구/검찰청</a></span>
     <span class="comments"><a href="#" title="Comment on Integrating WordPress with Your Website">4 댓글</a></span>
     <span class="like-count">5</span>
@@ -1789,12 +1789,12 @@ var article_contents = [
               <div class="comment-meta">
                   <h5 class="author">
                     <cite class="fn">
-                      <a href="#" rel="external nofollow" class="url">이름</a>
+                      <a href="#" rel="external nofollow" class="url">돈까스</a>
                     </cite>
                   </h5>
                   <p class="date">
                     <a href="#">
-                        <time datetime="2013-02-26T13:18:47+00:00">시간</time>
+                        <time datetime="2013-02-26T13:18:47+00:00">2020.11.13</time>
                     </a>
                   </p>
               </div>
@@ -1816,12 +1816,12 @@ var article_contents = [
               <div class="comment-meta">
                   <h5 class="author">
                     <cite class="fn">
-                      <a href="#" rel="external nofollow" class="url">이름</a>
+                      <a href="#" rel="external nofollow" class="url">소리</a>
                     </cite>
                   </h5>
                   <p class="date">
                     <a href="#">
-                        <time datetime="2013-02-26T13:18:47+00:00">시간</time>
+                        <time datetime="2013-02-26T13:18:47+00:00">2020.11.15</time>
                     </a>
                   </p>
               </div>
@@ -1843,12 +1843,12 @@ var article_contents = [
               <div class="comment-meta">
                   <h5 class="author">
                     <cite class="fn">
-                      <a href="#" rel="external nofollow" class="url">이름</a>
+                      <a href="#" rel="external nofollow" class="url">ㄹㄹ</a>
                     </cite>
                   </h5>
                   <p class="date">
                     <a href="#">
-                        <time datetime="2013-02-26T13:18:47+00:00">시간</time>
+                        <time datetime="2013-02-26T13:18:47+00:00">2020.11.15</time>
                     </a>
                   </p>
               </div>
@@ -1870,12 +1870,12 @@ var article_contents = [
               <div class="comment-meta">
                   <h5 class="author">
                     <cite class="fn">
-                      <a href="#" rel="external nofollow" class="url">이름</a>
+                      <a href="#" rel="external nofollow" class="url">샐러드</a>
                     </cite>
                   </h5>
                   <p class="date">
                     <a href="#">
-                        <time datetime="2013-02-26T13:18:47+00:00">시간</time>
+                        <time datetime="2013-02-26T13:18:47+00:00">2020.11.17</time>
                     </a>
                   </p>
               </div>
